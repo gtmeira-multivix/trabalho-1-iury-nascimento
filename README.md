@@ -1,4 +1,4 @@
-
+﻿
 # Estruturas de Dados - Trabalho 1
 
 O objetivo deste trabalho é implementar um parser de expressões matemáticas. Seu parser deve suportar, no mínimo, as operações a seguir:
@@ -38,6 +38,6 @@ O trabalho deve ser entregue até as **23:59 do dia 06/10 (sábado)**. A entrega
 ## Grupo
 O trabalho pode ser feito em grupos de até 3 pessoas. Preencha abaixo o nome dos integrantes do grupo:
 
-1) Integrante A - matrícula
+1) Integrante A - Iury Nascimento 1824599
 2) Integrante B - matrícula
 3) Integrante C - matrícula
