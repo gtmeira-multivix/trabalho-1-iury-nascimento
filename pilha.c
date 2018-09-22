@@ -10,7 +10,7 @@ typedef struct no {
 struct pilha {
   No *primeiro;
 };
-
+//fazer da forma da lista encadeada
 Pilha* pilha_criar() {
 	//Implemente
 }

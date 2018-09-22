@@ -2,11 +2,11 @@
 #define _TOKENIZACAO_H
 
 typedef enum tipo_token {
-  NUMERO, OPERADOR, ABRE_PARENTESES, FECHA_PARENTESES
+  NUMERO, OPERADOR, ABRE_PARENTESES, FECHA_PARENTESES, FIM, ERRO
 } TipoToken;
 
 typedef enum tipo_operador {
-  SOMA, SUB, MULT, DIV, POT, FIM, ERRO
+  SOMA, SUB, MULT, DIV, POT
 } TipoOperador;
 
 typedef enum associatividade {
