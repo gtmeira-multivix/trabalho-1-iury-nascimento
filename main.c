@@ -5,7 +5,6 @@
 #include "tokenizacao.h"
 
 int main() {
-	//acccc
 	//Substitua esta função pela implementação do seu trabalho.
 	printf("Digite uma expressão:\n");
 	Token t = token_proximo();
@@ -29,7 +28,7 @@ int main() {
 		}else if(t.tipo==ABRE_PARENTESES){
 			pilha_push(pilha_s,t);
 		}else if(t.tipo==FECHA_PARENTESES){
-			while(pilha_primeiro(pilha_s) !=ABRE_PARENTESES ){
+			while(pilha_primeiro(pilha_s).tipo !=ABRE_PARENTESES){
 				
 				Topo=pilha_pop(pilha_s);
 				fila_adicionar(fila_s,Topo);
@@ -49,6 +48,7 @@ int main() {
 		
 		
 	}
+	
 	
 	
 	return 0;
