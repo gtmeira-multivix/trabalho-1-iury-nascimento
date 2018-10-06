@@ -5,6 +5,7 @@
 #include "tokenizacao.h"
 
 int main() {
+	//acccc
 	//Substitua esta função pela implementação do seu trabalho.
 	printf("Digite uma expressão:\n");
 	Token t = token_proximo();
