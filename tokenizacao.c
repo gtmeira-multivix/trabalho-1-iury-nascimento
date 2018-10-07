@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include "tokenizacao.h"
-//abc
+
 Token token_proximo() {
   Token t;
   
